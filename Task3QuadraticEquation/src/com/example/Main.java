@@ -27,9 +27,9 @@ public class Main {
             System.out.println("Delta is negative");
             return;
         }else{
-            x1=(-b-(int)Math.sqrt(delta))/(2*a);
+            x1=(-b)-(int)Math.sqrt(delta))/(2*a);
             System.out.println("The value of x1 is: "+x1);
-            x2=(-b+(int)Math.sqrt(delta))/(2*a);
+            x2=(-b)+(int)Math.sqrt(delta))/(2*a);
             System.out.println("The value of x2 is: "+x2);
         }
 
